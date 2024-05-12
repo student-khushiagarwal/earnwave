@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ccdce3;
+}
+
+.inner{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f3f4;
+    margin-top: 50px;
+}
+
+.navbar{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav-img{
+    background-image: url(/task1/earnwave.png);
+    width: 100px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-btn{
+    width: 80px;
+    margin: 5px;
+    color: #7c848c;
+    font-size: 14px;
+    background-color: white;
+    /* border: 2px solid white;
+    border-radius: 10%; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #7c848c;
+}
+
+.nav-hr{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid #dce4eb;
+}
+
+.menu{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    font-size: 15px;
+}
+
+.main-text h1{
+    color: #2e434c;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-text p{
+    text-align: center;
+    color: #7c848c;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.text-img{
+    background-image: url(/task1/lock-design.png);
+    height: 30px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.boxes{
+    margin-top: 25px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 160px;
+    height: 130px;
+    background-color:white;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.earn{
+    color: #7c848c;
+    background-color: #dce4eb;
+    border-radius: 50px;
+    font-size: 11px;
+    width: 76px;
+    height: 14px;
+    text-align: center;
+}
+
+.box1-img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    background-image: url(/task1/waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.box1 h2{
+    font-weight: lighter;
+    color: #2e434c;
+    font-size: 38px;
+    margin-top: 2px;
+}
+
+.p1{
+    margin-top: 2px;
+    color: #7c848c;
+    font-size: 13px;
+}
+
+.p2{
+    font-size: 13px;
+    color: #2e434c;
+}
+
+.box2{
+    width: 250px;
+    height: 210px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    /* padding: 6px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box2 h2{
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: center;
+    color: #45555d;
+}
+
+.on{
+    background-image: url(/task1/on_button.jpg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app-r1{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uber{
+    background-image: url(/task1/uber.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.amazon{
+    background-image: url(/task1/amazon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.app-r2{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spotify{
+    background-image: url(/task1/spotify.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.netflix{
+    background-image: url(/task1/netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.app-store{
+    background-image: url(/task1/app_store.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 34px;
+    width: 100px;
+}
+
+.box3{
+    width: 190px;
+    height: 170px;
+    padding: 20px;
+    margin: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.box3 svg{
+    border: none;
+    border-radius: 6px;
+}
+
+.box3-endp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.box3-endp p{
+    font-size: 13px;
+    color: #45555d;
+}
+
+.div1{
+    background-color: #dce4eb;
+    color: #45555d;
+    font-size: 10px;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    bottom: 10px;
+    left: 80px;
+    z-index: 3;
+}
+
+.div2{
+    background-color: #e6e6e9;
+    color: #45555d;
+    font-size: 10px;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.div3{
+    background-color: #f3f3f4;
+    color: #45555d;
+    font-size: 10px;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    z-index: 1;
+}
+
+@media (min-width:340px) and (max-width:500px) {
+    .menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .main-text h1{
+        font-size: 40px;
+    }
+    .main-text p{
+        font-size: 10px;
+    }
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+}
